@@ -34,7 +34,7 @@ module Greenlight
     config.exceptions_app = routes
 
     # Configure I18n localization.
-    config.i18n.available_locales = %w(en fr)
+    config.i18n.available_locales = %w(en fr ar es pt-br)
     config.i18n.default_locale = "en"
 
     # Check if a loadbalancer is configured.
