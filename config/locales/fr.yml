@@ -29,7 +29,7 @@ fr:
       message: Oh non! On dirait que quelque chose a mal tourné de notre côté.
       help: "L'erreur a été enregistrée, nous allons jeter un coup d’œil!"
     migration_error:
-      contact_admin: "Si vous n’êtes pas un administrateur, veuillez en contacter un."
+      contact_admin: "Si vous n’êtes pas un Administrateur, Veuillez en contacter un."
       continue: Je veux rester sur la 1.0.
       notice: >
         Visiodor a rencontré une erreur de migration de base de données.<br> C'est peut-être parce que vous n'avez pas mis à jour Visiodor 2.0.
@@ -47,37 +47,37 @@ fr:
     rooms: "Salons Personnalisés "
     recordings: Gestion des enregistrements
     designs: Designs personnalisés
-    authentication: Authentification d'utilisateur
+    authentication: Authentification d'Utilisateur
   footer:
     powered_by: "Alimenté par %{href}."
   go_back: Retour
   greenlight: Visiodor
   header:
-    create_room: "Créer Salon "
+    create_room: "Nouveau Salon "
     dropdown:
       help: "Besoin d'aide?"
       home: "Salon d’Accueil "
       settings: "Paramètres "
       signout: Déconnexion
-  home_room: Salle d’Accueil
+  home_room: Salon d’Accueil
   info_update_success: Informations mises à jour avec succès.
-  invalid_credentials: "La connexion a échoué en raison d'informations d'identification erronées. Êtes-vous sûr de les avoir entrées correctement?"
+  invalid_credentials: "La connexion a échoué en raison d'informations d'identification erronées. Êtes-vous sûr de les avoir entrer correctement?"
   invite_message: "Pour inviter quelqu'un à la réunion, envoyez-lui ce lien:"
   landing:
     about: "Visiodor est un portail d'accès pour votre  serveur %{href} de Web conférence. Vous pouvez créer vos propres salons pour héberger des sessions ou rejoindre d'autres utilisateurs via un lien court et pratique."
-    welcome: Bienvenus sur <span class="green-grad">Visioddor</span>.
+    welcome: Bienvenus sur <span class="green-grad">Visiodor</span>.
     video: Regardez notre tutoriel sur l'utilisation de Visiodor
     upgrade: Montrez-moi comment passer à la version 2.0!
     version: "Nous avons publié une nouvelle version de Visiodor, mais votre base de données n'est pas compatible."
   ldap_error: Impossible de se connecter au serveur LDAP. Veuillez vérifier votre configuration LDAP dans le fichier env et vous assurer que votre serveur est en cours d'exécution.
-  login: Connexion
+  login: Se Connecter
   modal:
     create_room:
       auto_join: Rejoignez-moi automatiquement dans le salon.
-      free_delete: Vous serez libre de supprimer cette salle à tout moment.
-      name_placeholder: Entrez un nom de salle...
-      not_blank: Le nom de salle ne peut être vide.
-      title: Créer Nouvelle Salle
+      free_delete: Vous serez libre de supprimer ce salon à tout moment.
+      name_placeholder: Entrez un nom de salon...
+      not_blank: Le nom du salon ne peut être vide.
+      title: Créer Nouveau Salon
     delete_account:
       confirm: "Êtes-vous sûr de vouloir supprimer votre compte?"
       delete: "Je suis sûr, supprimer mon compte."
@@ -85,22 +85,22 @@ fr:
       warning: Cette décision est définitive. Vous <b>ne</b> pourrez pas récupérer les données associées.
     delete_room:
       confirm: "Êtes-vous sûr de vouloir supprimer %{room}?"
-      delete: "Je suis sûr, supprimer cette salle."
-      keep: "A bien y réfléchir, je vais la garder."
-      warning: Vous<b>ne</b> pourrez pas récupérer cette salle ou les enregistrements associés.
+      delete: "Je suis sûr, supprimer ce salon."
+      keep: "A bien y réfléchir, je vais le garder."
+      warning: Vous<b>ne</b> pourrez pas récupérer ce salon ou les enregistrements associés.
     login:
       or: ou
       with: "Connexion via %{provider}"
-  omniauth_error: Une erreur est survenue lors de l'authentification avec omniauth. Veuillez réessayer ou contacter un administrateur!
+  omniauth_error: Une erreur est survenue lors de l'authentification avec omniauth. Veuillez réessayer ou contacter un Administrateur!
   password: Mot de passe
   recording:
     email: Email d'enregistrement
-    no_recordings: "Cette salle n'a pas %{inject} enregistrements."
+    no_recordings: "Ce salon ne contient pas %{inject} d'enregistrements."
     recorded_on: "Enregistré le %{date}"
     table:
       name: Nom
       thumbnails: Vignettes
-      length: Longueur
+      length: Durée
       users: Utilisateurs
       visibility: Visibilité
       formats: Formats
@@ -120,7 +120,7 @@ fr:
     start: Démarrer
     wait:
       message: Oops! La réunion n'a pas encore commencé.
-      auto: "Vous serez automatiquement connecté à la réunion, dès son démarrage."
+      auto: "Vous serez automatiquement joint à la réunion, dès son démarrage."
   settings:
     account:
       fullname: Nom complet
@@ -137,7 +137,7 @@ fr:
     design:
       not_supported: Personnalisation non prise en charge actuellement.
       subtitle: Personnalisation Visiodor
-      title: Design
+      title: Personnalisation Design
     password:
       confirmation: Confirmation du nouveau mot de passe
       new: Nouveau Mot de passe
