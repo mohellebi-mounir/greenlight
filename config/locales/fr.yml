@@ -17,7 +17,7 @@
 # French (fr) locale.
 
 fr:
-  bigbluebutton: BigBlueButton
+  bigbluebutton: Visiodor
   cancel: Annuler
   copy: Copier
   delete: Supprimer
@@ -32,9 +32,9 @@ fr:
       contact_admin: "Si vous n’êtes pas un administrateur, veuillez en contacter un."
       continue: Je veux rester sur la 1.0.
       notice: >
-        Greenlight a rencontré une erreur de migration de base de données.<br> C'est peut-être parce que vous n'avez pas mis à jour Greenlight 2.0.
+        Visiodor a rencontré une erreur de migration de base de données.<br> C'est peut-être parce que vous n'avez pas mis à jour Visiodor 2.0.
       upgrade: Montrez-moi comment passer à la version 2.0!
-      version: "Nous avons publié une nouvelle version de Greenlight, mais votre base de données n'est pas compatible."
+      version: "Nous avons publié une nouvelle version de Visiodor, mais votre base de données n'est pas compatible."
     not_found:
       message: Oups! On dirait qu'on ne peut pas trouver ça.
       help: "Est-il possible qu'il ait été supprimé?"
@@ -51,12 +51,12 @@ fr:
   footer:
     powered_by: "Alimenté par %{href}."
   go_back: Retour
-  greenlight: Greenlight
+  greenlight: Visiodor
   header:
     create_room: "Créer Salon "
     dropdown:
       help: "Besoin d'aide?"
-      home: "Salle d’Accueil "
+      home: "Salon d’Accueil "
       settings: "Paramètres "
       signout: Déconnexion
   home_room: Salle d’Accueil
@@ -64,11 +64,11 @@ fr:
   invalid_credentials: "La connexion a échoué en raison d'informations d'identification erronées. Êtes-vous sûr de les avoir entrées correctement?"
   invite_message: "Pour inviter quelqu'un à la réunion, envoyez-lui ce lien:"
   landing:
-    about: "Greenlight est une interface simple pour votre %{href} serveur open-source de Web conférence. Vous pouvez créer vos propres salles pour héberger des sessions ou rejoindre d'autres utilisateurs via un lien court et pratique."
-    welcome: Bienvenus sur <span class="green-grad">Greenlight</span>.
-    video: Regardez notre tutoriel sur l'utilisation de Greenlight
+    about: "Visiodor est un portail d'accès pour votre  serveur %{href} de Web conférence. Vous pouvez créer vos propres salons pour héberger des sessions ou rejoindre d'autres utilisateurs via un lien court et pratique."
+    welcome: Bienvenus sur <span class="green-grad">Visioddor</span>.
+    video: Regardez notre tutoriel sur l'utilisation de Visiodor
     upgrade: Montrez-moi comment passer à la version 2.0!
-    version: "Nous avons publié une nouvelle version de Greenlight, mais votre base de données n'est pas compatible."
+    version: "Nous avons publié une nouvelle version de Visiodor, mais votre base de données n'est pas compatible."
   ldap_error: Impossible de se connecter au serveur LDAP. Veuillez vérifier votre configuration LDAP dans le fichier env et vous assurer que votre serveur est en cours d'exécution.
   login: Connexion
   modal:
@@ -113,10 +113,10 @@ fr:
     join: Rejoindre
     last_session: "Dernière session le %{session}"
     owner: propriétaire
-    no_sessions: Cette salle n'a pas encore de sessions!
+    no_sessions: Ce salon n'a pas encore de sessions!
     recordings: Enregistrements
     sessions: Sessions
-    settings: Paramètres Salle
+    settings: Paramètres Salon
     start: Démarrer
     wait:
       message: Oops! La réunion n'a pas encore commencé.
@@ -126,7 +126,7 @@ fr:
       fullname: Nom complet
       provider: Fournisseur
       image: Image
-      image_url: URL de l'image profil
+      image_url: URL de l'image de profil
       subtitle: Mettre à jour les informations de votre compte
       title: Informations de compte
     delete:
@@ -136,7 +136,7 @@ fr:
       title: Supprimer Compte
     design:
       not_supported: Personnalisation non prise en charge actuellement.
-      subtitle: Personnalisation Greenlight
+      subtitle: Personnalisation Visiodor
       title: Design
     password:
       confirmation: Confirmation du nouveau mot de passe
