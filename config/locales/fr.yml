@@ -94,8 +94,8 @@ fr:
   omniauth_error: Une erreur est survenue lors de l'authentification avec omniauth. Veuillez réessayer ou contacter un Administrateur!
   password: Mot de passe
   recording:
-    email: Email d'enregistrement
-    no_recordings: "Ce salon ne contient pas %{inject} d'enregistrements."
+    email:  Envoyer l'enregistrement par Email
+    no_recordings: "Ce salon ne contient pas d'enregistrements %{inject}s."
     recorded_on: "Enregistré le %{date}"
     table:
       name: Nom
