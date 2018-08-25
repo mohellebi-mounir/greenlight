@@ -106,7 +106,7 @@ fr:
       formats: Formats
     visibility:
       public: Publique
-      unlisted: Non Listé
+      unlisted: Privé
   room:
     invited: Vous avez été invité à rejoindre
     invite_participants: Inviter des participants
