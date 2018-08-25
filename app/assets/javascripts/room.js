@@ -33,10 +33,10 @@ $(document).on('turbolinks:load', function(){
       if (success) {
         inviteURL.blur();
         copy.addClass('btn-success');
-        copy.html("<i class='fas fa-check'></i> Copy")
+        copy.html("<i class='fas fa-check'></i> Copié")
         setTimeout(function(){
           copy.removeClass('btn-success');
-          copy.html("<i class='fas fa-copy'></i> Copy")
+          copy.html("<i class='fas fa-copy'></i> Copier")
         }, 2000)
       }
     });
