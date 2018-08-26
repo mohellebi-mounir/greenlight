@@ -131,7 +131,7 @@ fr:
       title: Informations de compte
     delete:
       button: "Oui, je souhaiterais supprimer mon compte."
-      disclaimer: "Si vous choisissez de supprimer votre compte, il <b>NE</b> sera PAS récupérable. Toutes les informations concernant votre compte, y compris les paramètres, les pièces et l'enregistrement seront supprimées."
+      disclaimer: "Si vous choisissez de supprimer votre compte, il <b>NE</b> sera PAS récupérable. Toutes les informations concernant votre compte, y compris les paramètres, les salons et les enregistrements seront supprimées."
       subtitle: Supprimer Définitivement votre Compte
       title: Supprimer Compte
     design:
